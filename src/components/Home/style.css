@@ -1,0 +1,29 @@
+.welcome{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    /* color: var(--white); */
+  }
+  .welcome h5{
+    font-size: 15px;
+    color: var(--comment-1);
+  }
+  .button-field{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+
+    margin-top: 50px !important;
+    display: flex;
+  }
+  .button-field button, .button-field button:hover{
+    min-width: 100px;
+    padding: 10px !important;
+  }
+  .highlight{
+    font-size: 1em;
+    color: var(--white) !important;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(90deg,var(--blue),var(--blue-3)) !important;
+  }

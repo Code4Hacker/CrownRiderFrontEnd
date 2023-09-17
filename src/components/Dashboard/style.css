@@ -1,0 +1,131 @@
+.logo{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 10px;
+}
+.logo span{
+}
+.list{
+    border: none;
+    width: 100%;
+}
+.list li{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    cursor:pointer;
+    min-width: 100px;
+    margin: 0px 10px 0px;
+    transition: .3s ease-in-out;
+}
+.list li:hover{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    cursor:pointer;
+    color: var(--comment-2);
+    min-width: 100px;
+    margin: 0px 10px 0px;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+    padding: 10px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 10px 0px var(--shadow);
+}
+.background_color{
+    background-color: var(--bg-mode);
+}
+.model_profile{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    background-color: var(--white);
+    box-shadow: 0px 0px 10px 0px var(--shadow);
+}
+.model_profile .profile{
+    width:70px;
+    height: 70px;
+    margin-left: 10px;
+}
+.search_tab{
+    border: 1.52px solid rgba(209, 209, 209, 0.288) !important;
+    width: 80% !important;
+    padding: 10px;
+    /* box-shadow: inset 0px 0px 10px 0px var(--shadow); */
+    margin: 10px;
+}
+.dashboard {
+    min-height: 100vh;
+}
+.input{
+    display: flex;
+}
+.input button{
+    border: none;
+    background: linear-gradient(60deg,var(--blue), var(--blue-3)) !important;
+}
+.dashboard .normal.container{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.normal.container > .row{
+    width: 100vw !important;
+    margin-top: 80px;
+    position: absolute;
+}
+.saving{
+    /* float: right; */
+    align-items: end;
+    text-align: end;
+}
+.saving button{
+    /* height: 5px !important; */
+    padding: 10px !important;
+    color: var(--blue);
+    background-color: var(--comment-3);
+}
+.saving.s2 button{
+    /* height: 5px !important; */
+    padding: 10px !important;
+    color: var(--comment-1);
+    background-color: var(--shadow);
+}
+.btn-apply{
+    background-color: var(--blue-1) !important;
+    color: var(--white) !important;
+}
+.main{
+    max-height: 70vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+::-webkit-scrollbar{
+    width: 2px;
+    height: 2px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--shadow);
+}
+.flex-div{
+    display: flex;
+    text-align: start !important;
+}
+.flex-div span{
+    margin: 2px;
+}
+.flex-div input[type="checkbox"]{
+    margin-top: -0px !important;
+
+}
+li.active{
+    background-color: var(--blue-1);
+    color: var(--white);
+    border-radius: 50px;
+}
